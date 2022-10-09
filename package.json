@@ -1,0 +1,11 @@
+{
+  "name": "ATM.npm",
+  "version": "1.0.0",
+  "description": "Npm tracking module for APC",
+  "main": "index.js",
+  "author": "Linus Berg",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "changes-stream": "^2.2.0"
+  }
+}
