@@ -14,7 +14,7 @@ changes.on('data', function (change) {
     PostToTracker(name);
   }
 });
-
+// Random comment
 const PostToTracker = async (artifact) => {
   try {
     const res = await axios.post("http://localhost:4001/api/artifact/track", {
